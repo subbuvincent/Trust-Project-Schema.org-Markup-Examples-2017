@@ -1,6 +1,6 @@
 # Newsrooms examples folder 
 
-** File naming *** 
+**File naming** 
 
 As newsrooms commit example/test files into the folders here, please prefix a three alphabet newsroom name code to the top of the file name. 
 

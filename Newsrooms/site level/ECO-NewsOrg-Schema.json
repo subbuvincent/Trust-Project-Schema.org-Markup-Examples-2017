@@ -1,0 +1,41 @@
+{
+	"about": {
+		"public": [{
+				"ref": "/wikidata/entity/Q474153"
+			},
+			{
+				"ref": "/wikidata/entity/Q1331793"
+			},
+			{
+				"ref": "/wikidata/entity/Q4830453"
+			}
+		]
+	},
+	"actionableFeedbackPolicy": "",
+	"correctionsPolicy": "http://www.economist.com/contact-info",
+	"description": "Media company headquartered in London, United Kingdom",
+	"diversityPolicy": "",
+	"diversityStaffingReport": "",
+	"ethicsPolicy": "http://www.economistgroup.com/results_and_governance/governance/guiding_principles.html",
+	"foundingDate": "1843-02-09T00:00:00Z",
+	"headline": "Economist Group",
+	"id": "http://www.wikidata.org/entity/Q474153",
+	"inLanguage": "en",
+	"keyword": [
+		"The Economist Group",
+		"The Economist Newspaper Limited"
+	],
+	"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+	"ownershipFundingGrants": "http://www.economistgroup.com/results_and_governance/ownership.html",
+	"masthead": "http://www.economistgroup.com/results_and_governance/board.html",
+	"missionCoveragePrioritiesPolicy": "http://www.economistgroup.com/what_we_do/our_history.html",
+	"refLocalNationalRequirements": "",
+	"type": [
+		"NewsMediaOrganization"
+	],
+	"verificationFactCheckingPolicy": "",
+	"unnamedSourcesPolicy": "",
+	"url": {
+		"canonical": "http://www.economistgroup.com/"
+	}
+}

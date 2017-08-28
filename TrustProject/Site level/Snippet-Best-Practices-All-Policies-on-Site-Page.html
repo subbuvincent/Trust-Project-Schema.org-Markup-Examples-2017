@@ -1,33 +1,30 @@
 
+<!-- TRUST PROTOCOL: BEST PRACTICES INDICATOR --> 
 <!-- WHAT: Trust Indicator Best Practices Schema.org MARKUP EXAMPLE FOR ALL POLICIES AT SITE LEVEL -->
 <!-- WHERE: Put this on your news website's home page and/or about page -->
 <!-- This is not a FULL HTML dummy page, it is only the markup snippet for BP Trust Indicator -->
-
-<!-- TRUST PROTOCOL: BEST PRACTICES INDICATOR --> 
 <!-- NULL STRING VALUES mean no policy exists to signal out --> 
-<!-- Note: foundingDate is to be formalised at schema.org to be used for NewsMediaOrganization -->
-
- <!-- ownershipFundingGrants, diversityStaffingReport and refLocalNationalRequirements are to be defined in schema.org as of July 2017 --> 
+<!-- Note: The following three attributes are to be approved for use in schema.org in release 3.4+ 
+-- "ownershipFundingGrants"	          : "", --
+-- "diversityStaffingReport"            : "", -- 
+--  "refLocalNationalRequirements"       : "", --
+--  The rest below are defined in 3.3 Schema.org release so they are ready for examples
+-->  
+<!-- TRUST PROTOCOL: BEST PRACTICES INDICATOR --> 
 <script type="application/ld+json">
 {
-"@context"				              : "http://schema.org",
+"@context"				            : "http://schema.org",
 "@type"					              : "NewsMediaOrganization",	
  "name"					              : "Economist",
- "ethicsPolicy"		                  : "http://www.economistgroup.com/results_and_governance/governance/guiding_principles.html",
- "masthead"				              : "http://mediadirectory.economist.com/",
+ "ethicsPolicy"		            : "http://www.economistgroup.com/results_and_governance/governance/guiding_principles.html",
+ "masthead"				            : "http://mediadirectory.economist.com/",
  "missionCoveragePrioritiesPolicy"	  : "http://www.economistgroup.com/what_we_do/our_mission.html",
-
- "diversityPolicy"                    : "",
+  "foundingDate"                       : "1917-07-25", 
+ "diversityPolicy"                  : "",
  "correctionsPolicy"	              : "",
  "verificationFactCheckingPolicy"	  : "",
- "unnamedSourcesPolicy"               : "", 
- "actionableFeedbackPolicy"	          : "", 
-
-  "foundingDate"                       : "1917-07-25", 
-
- "ownershipFundingGrants"	          : "http://www.economistgroup.com/results_and_governance/ownership.html",
- "diversityStaffingReport"            : "",
- "refLocalNationalRequirements"       : "",
+ "unnamedSourcesPolicy"             : "", 
+ "actionableFeedbackPolicy"	        : "" 
 }
 </script>
 

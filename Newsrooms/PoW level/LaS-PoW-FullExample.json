@@ -51,8 +51,7 @@
          "author": {
              "@type": "Person",
              "name": "Domenico Quirico",
-             "sameAs": 
-"http://autori.gedi.it/profilo/Domenico_Quirico"
+             "sameAs": ["http://autori.gedi.it/profilo/GID_1234567890abcdefg","https://twitter.com/domenico_quirico"]
          }
      }
 </script>

@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "Person",
+            "name" : "Domenico Ventriglia",
+            "url" : "http://autori.gedi.it/profilo/Domenico-Ventriglia",
+            "image" : "http://autori.gedi.it/profilo/Domenico-Ventriglia.jpg",
+            "affiliation" : [
+                {
+                    "@type": "Organization",
+                    "name": "Repubblica",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http://www.repubblica.it/common/img/repubblica-111.png",
+                        "width": 227,
+                        "height": 27
+                    },
+                    "url" : "http://www.repubblica.it/"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Society of Environmental Journalists",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http://www.sej.org/sites/all/themes/sej/logo.png",
+                        "width": 287,
+                        "height": 73
+                    },
+                    "url" : "http://www.sej.org/"
+                }
+            ],
+            "workLocation" : {
+                "@type": "Place",
+                "name" : "Roma"
+            },
+            "description" : "&lt;p&gt;Matthew Rosenberg covers intelligence and national security for The New York Times in Washington. He previously spent 15 years as a foreign correspondent in Asia, Africa and the Middle East, and was&amp;nbsp;&lt;a href=&quot;https://www.nytimes.com/2014/08/22/world/asia/afghanistan-matthew-rosenberg-expelled.html&quot;&gt;expelled from Afghanistan&lt;/a&gt;&amp;nbsp;in 2014 because of his reporting.&lt;/p&gt;&lt;p&gt;In Afghanistan, Mr. Rosenberg&amp;rsquo;s reporting exposed how the C.I.A. had made&amp;nbsp;&lt;a href=&quot;http://www.nytimes.com/2013/04/29/world/asia/cia-delivers-cash-to-afghan-leaders-office.html&quot;&gt;monthly cash drops&lt;/a&gt;&amp;nbsp;at the office of President Hamid Karzai for more than a decade and provided a&amp;nbsp;&lt;a href=&quot;http://www.nytimes.com/2012/05/16/world/asia/trained-by-the-us-led-coalition-some-afghan-allies-turn-enemy.html&quot;&gt;rare detailed account&lt;/a&gt;&amp;nbsp;of an attack by Afghan soldiers on American troops. &amp;nbsp;He also dubbed the country&amp;#39;s&amp;nbsp;&lt;a href=&quot;http://www.nytimes.com/2012/11/01/world/asia/kabul-boxing-match-draws-cheering-throngs.html&quot;&gt;first international boxing match&lt;/a&gt;&amp;nbsp;the &amp;quot;Squabble in Kabul&amp;quot; (like the fight, the name has not gone down in the annals of boxing history).&lt;/p&gt;&lt;p&gt;In between trips to the front lines and stints in the press boxes of Afghan sporting events, Mr. Rosenberg managed to slip in a few fly fishing trips to the mountains in northeastern Afghanistan. There, he was thoroughly outdone by Afghan kids who used bamboo sticks for poles and hooked fish after fish.&lt;/p&gt;&lt;p&gt;Mr. Rosenberg previously worked for The Wall Street Journal and The Associated Press. He has won the George Polk Award for military reporting and was a finalist for the Pulitzer Prize in international reporting as part of a team of Times reporters covering the Islamic State.&lt;/p&gt;&lt;p&gt;Mr. Rosenberg was born in New York and graduated from &lt;strong&gt;McGill University&lt;/strong&gt; in Montreal.&lt;/p&gt;",
+            "award" : ["Golden globe 2017, 2018 e 2019","Emi Awd 2016"],
+            "sameAs" : ["http://autori.gedi.it/profilo/GID_test","https://twitter.com/gcovato"],
+            "identifier" : "test",
+            "jobTitle" : "Reporter"
+        }
+        </script>

@@ -1,0 +1,58 @@
+<script type="application/ld+json">
+     {
+         "@context": "http://schema.org",
+         "@type": ["NewsArticle","OpinionNewsArticle"],
+         "mainEntityOfPage": 
+"http://www.lastampa.it/2017/06/11/edizioni/novara/quirico-sogno-unenciclopedia-che-testimoni-la-vita-dei-migranti-WUrdD3g2CmlWvTjmhVatSL/pagina.html",
+         "headline": "Quirico: “Sogno un’enciclopedia che testimoni la vita dei migranti”",
+         "keywords": "",
+         "datePublished": "2017-06-11T21:06:12+01:00",
+         "dateModified": "2017-06-12T11:26:45+01:00",
+         "printPage": "",
+         "printSection": "",
+         "articleSection": "",
+         "publishingPrinciples": 
+"https://www.lastampa.it/servizi/amphtml/lastampa.amp.html",
+         "publisher": {
+             "@type": "Organization",
+             "name": "La Stampa",
+             "logo": {
+                 "@type": "ImageObject",
+                 "url": 
+"http://www.lastampa.it/common/img/LaStampa-227.png",
+                 "width": 227,
+                 "height": 27
+             }
+         },
+         "copyrightYear": 2017,
+         "copyrightHolder": {
+             "@type": "Organization",
+             "name": "La Stampa",
+             "logo": {
+                 "@type": "ImageObject",
+                 "url": 
+"http://www.lastampa.it/common/img/LaStampa-227.png",
+                 "width": 227,
+                 "height": 27
+             }
+         },
+         "accountablePerson": {
+             "@type": "Person",
+             "name": "Maurizio Molinari",
+             "jobTitle": "Editor in Chief"
+         },
+         "image": {
+             "@type": "ImageObject",
+             "url": 
+"http://www.lastampa.it/rf/image_lowres/Pub/p4/2017/06/11/Novara/Foto/RitagliWeb/Y1J3HT2V6280-kDtH-U11003182041891ErD-1024x576%40LaStampa.it.JPG",
+             "width": 1024,
+             "height": 574
+         },
+         "author": {
+             "@type": "Person",
+             "name": "Domenico Quirico",
+             "sameAs": 
+"http://autori.gedi.it/profilo/Domenico_Quirico"
+         }
+     }
+</script>

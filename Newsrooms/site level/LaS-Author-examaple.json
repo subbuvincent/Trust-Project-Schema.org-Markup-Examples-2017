@@ -1,0 +1,42 @@
+        <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "Person",
+            "name" : "Domenico Quirico",
+            "url" : "http://autori.gedi.it/profilo/Domenico_Quirico",
+            "image" : "http://autori.gedi.it/profilo/Domenico_Quirico.jpg",
+            "affiliation" : [
+                {
+                    "@type": "Organization",
+                    "name": "La Stampa",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http://www.lastampa.it/common/img/LaStampa-227.png",
+                        "width": 227,
+                        "height": 27
+                    },
+                    "url" : "http://www.lastampa.it/"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Society of Environmental Journalists",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "http://www.sej.org/sites/all/themes/sej/logo.png",
+                        "width": 287,
+                        "height": 73
+                    },
+                    "url" : "http://www.sej.org/"
+                }
+            ],
+            "workLocation" : {
+                "@type": "Place",
+                "name" : "Torino"
+            },
+            "description" : "<p>È reporter per il quotidiano torinese La Stampa, caposervizio esteri.</p><p>È stato corrispondente da Parigi e inviato di guerra. Si è interessato fra l'altro degli avvenimenti sorti a partire dal 2010-2011 e noti come 'Primavera araba'.</p><p> Nell'agosto 2011 è stato rapito in Libia e liberato dopo due giorni.</p><p>Il 9 aprile 2013, mentre si trovava in Siria come inviato di guerra, di lui si perde ogni traccia. La prima notizia del suo rapimento giunge il 6 giugno quando viene diffusa la notizia che Quirico è ancora vivo. Viene infine liberato l'8 settembre 2013, dopo 5 mesi di sequestro, grazie ad un intervento dello Stato Italiano e infine riportato a casa</p>",
+            "award" : ["2015 Premio Montale Fuori di Casa – Sezione Giornalismo","2013 Premio Ischia Internazionale di Giornalismo"],
+            "sameAs" : ["http://autori.gedi.it/profilo/GID_1234567890abcdefg","https://twitter.com/domenico_quirico"],
+            "identifier" : "test",
+            "jobTitle" : "Reporter"
+        }
+        </script>

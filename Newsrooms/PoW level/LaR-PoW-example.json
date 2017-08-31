@@ -12,10 +12,8 @@ soluzione sulla fusione con Monsanto”",
          "printPage": "",
          "printSection": "",
          "articleSection": "",
-         "publishingPrinciples": 
-"https://www.lastampa.it/servizi/amphtml/lastampa.amp.html",
          "publisher": {
-             "@type": "Organization",
+             "@type": "NewsMediaOrganization",
              "name": "La Stampa",
              "logo": {
                  "@type": "ImageObject",

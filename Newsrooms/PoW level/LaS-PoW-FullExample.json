@@ -1,7 +1,7 @@
 <script type="application/ld+json">
      {
          "@context": "http://schema.org",
-         "@type": ["NewsArticle","OpinionNewsArticle"],
+         "@type": ["ReportageNewsArticle","OpinionNewsArticle"],
          "mainEntityOfPage": 
 "http://www.lastampa.it/2017/06/11/edizioni/novara/quirico-sogno-unenciclopedia-che-testimoni-la-vita-dei-migranti-WUrdD3g2CmlWvTjmhVatSL/pagina.html",
          "headline": "Quirico: “Sogno un’enciclopedia che testimoni la vita dei migranti”",
@@ -11,10 +11,8 @@
          "printPage": "",
          "printSection": "",
          "articleSection": "",
-         "publishingPrinciples": 
-"https://www.lastampa.it/servizi/amphtml/lastampa.amp.html",
          "publisher": {
-             "@type": "Organization",
+             "@type": "NewsMediaOrganization",
              "name": "La Stampa",
              "logo": {
                  "@type": "ImageObject",
@@ -51,7 +49,7 @@
          "author": {
              "@type": "Person",
              "name": "Domenico Quirico",
-             "sameAs": ["http://autori.gedi.it/profilo/GID_1234567890abcdefg","https://twitter.com/domenico_quirico"]
+             "sameAs": "http://autori.gedi.it/profilo/GID_1234567890abcdefg"
          }
      }
 </script>

@@ -3,6 +3,11 @@
 <!-- Trust Indicator AUTHOR INFO Schema.org markup -->
 <!--  Where will code go: on the individual author bio or profile or author's home page on the publisher -->
 <!-- This is dummy data for illustrative purposes only -->
+<!-- Note: On the attributes below -->
+<!-- Not needed for MVP: jobTitle+worksFor, (external)affiliation(s), award(s) and contactPoint -->
+<!-- Optional: image, 
+<!-- Additional Trust Project MVP requirement: workLocation -->
+<!-- See this page for the spec and rollout staging of attributes via markup: https://www.scu.edu/ethics/focus-areas/journalism-ethics/programs/the-trust-project/collaborator-materials/trust-protocol-phase-i-mvp-/ --> 
 
 <script type="application/ld+json">
 {
@@ -15,8 +20,7 @@
 
      "workLocation" : {
 	     "@type": "Place",
-		 "name" : "New York, New York, USA"
-         
+	     "name" : "New York, New York, USA"
      },
 
     "description" : "Maggie Lindsy Haberman is an American journalist who is a White House correspondent for The New York Times and a political analyst for CNN. She previously worked for Politico and the New York Daily News, where she was a political reporter.",
@@ -26,11 +30,30 @@
        	"telephone"    : "+1-425-123-4567",
         "contactType"  : "Public Engagement",
         "email"        : "maggieh@nytco.com",
-        "url"          : "http://www.nytimes.com/help/index.html"
-        
+        "url"          : "http://www.nytimes.com/help/index.html" 
     },
 
     "sameAs" : ["https://twitter.com/maggieNYT", "https://www.nytimes.com/by/maggie-haberman"],	
-    "jobTitle"	: "Reporter"    
+    
+    "jobTitle"	: "Reporter",
+    "worksFor"      : {
+                         "@type": "NewsMediaOrganization",
+                         "Name": "New York Times"
+                       },
+		       
+    "affiliation" : [
+    			{
+                   	 "@type": "Organization",
+                   	 "name": "Investigative Reporters and Editors",
+                    	"url" : "http://ire.org"
+                	},
+                	{
+                    	"@type": "Organization",
+                    	"name": "Society of Environmental Journalists",
+                    	"url" : "http://www.sej.org/"
+                	}
+            	   ],
+		   
+    "award" : ["2017 Pulitzer Prize for Public Service","2012 ICFJ News Innovation Award"]
 }
 </script>

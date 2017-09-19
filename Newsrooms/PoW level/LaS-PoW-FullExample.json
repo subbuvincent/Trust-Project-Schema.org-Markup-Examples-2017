@@ -2,9 +2,8 @@
      {
          "@context": "http://schema.org",
          "@type": ["ReportageNewsArticle","OpinionNewsArticle"],
-         "mainEntityOfPage": 
-"http://www.lastampa.it/2017/06/11/edizioni/novara/quirico-sogno-unenciclopedia-che-testimoni-la-vita-dei-migranti-WUrdD3g2CmlWvTjmhVatSL/pagina.html",
-         "headline": "Quirico: “Sogno un’enciclopedia che testimoni la vita dei migranti”",
+         "mainEntityOfPage": "www.lastampa.it/_stc/pagina.html",
+         "headline": "Rapporto da Dunkerque, tra fiction e realt&agrave; - La Stampa",
          "keywords": "",
          "datePublished": "2017-06-11T21:06:12+01:00",
          "dateModified": "2017-06-12T11:26:45+01:00",
@@ -16,24 +15,34 @@
              "name": "La Stampa",
              "logo": {
                  "@type": "ImageObject",
-                 "url": 
-"http://www.lastampa.it/common/img/LaStampa-227.png",
+                 "url": "http://www.lastampa.it/common/img/LaStampa-227.png",
                  "width": 227,
                  "height": 27
+             },
+             "sameAs": ["https://www.facebook.com/lastampa.it", "https://twitter.com/lastampa" ],
+             "parentOrganization" : {
+                "@type": "NewsMediaOrganization",
+                "name": "Gruppo GEDI SpA",
+                 "logo": {
+                    "@type": "ImageObject",
+                    "url": "http://www.gedispa.it/fileadmin/templates/geresponsive/resources/images/logoEspresso_name.svg",
+                    "width": 190,
+                    "height": 83
+                    }
              }
+
          },
          "copyrightYear": 2017,
          "copyrightHolder": {
-             "@type": "Organization",
+             "@type": "NewsMediaOrganization",
              "name": "La Stampa",
              "logo": {
                  "@type": "ImageObject",
-                 "url": 
-"http://www.lastampa.it/common/img/LaStampa-227.png",
+                 "url": "http://www.lastampa.it/common/img/LaStampa-227.png",
                  "width": 227,
                  "height": 27
              }
-         },
+                      },
          "accountablePerson": {
              "@type": "Person",
              "name": "Maurizio Molinari",
@@ -41,14 +50,14 @@
          },
          "image": {
              "@type": "ImageObject",
-             "url": 
-"http://www.lastampa.it/rf/image_lowres/Pub/p4/2017/06/11/Novara/Foto/RitagliWeb/Y1J3HT2V6280-kDtH-U11003182041891ErD-1024x576%40LaStampa.it.JPG",
-             "width": 1024,
-             "height": 574
+             "url": "http://www.lastampa.it/rf/image_lowres/Pub/p4/2017/09/17/Esteri/Foto/RitagliWeb/Dunkirk-kwUF-U11011693516633oB-1024x576%40LaStampa.it.jpg",
+             "width": 1000,
+             "height": 563
          },
          "author": {
              "@type": "Person",
              "name": "Domenico Quirico",
+             "jobTitle": "Journalist",
              "sameAs": "http://autori.gedi.it/profilo/GID_1234567890abcdefg"
          }
      }

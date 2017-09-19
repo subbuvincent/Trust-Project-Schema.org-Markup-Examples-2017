@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Profilo autore</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="/css/materialize.min.css">
+		<link rel="canonical" href="http://autori.gedi.it/profilo/Domenico_Quirico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+			@font-face{font-family:'Lora';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/lora/v8/5-AYViExptypIdFoLKAxTA.woff) format('woff');}
+			@font-face{font-family:'Lora';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/lora/v8/XpaepWHcooQHSRnzoohUng.woff) format('woff');}
+			@font-face{font-family:'Droid Sans';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');}
+			@font-face{font-family:'Droid Sans';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');}
+			html {
+				font-size: 10px;
+				font-family: Droid Sans;
+			}
+			.title {
+				font-size: 2.5rem;
+				font-weight: 700;
+			}
+			#nome {
+				font-family: Lora;
+				font-size: 4rem;
+				font-weight: 700;
+			}
+			#bio,
+			#aff,
+			#pri,
+			#art,
+			#pub,
+			#lin {
+				font-size: 1.8rem;
+			}
+			.bigMe {
+				font-size: 1.5rem;
+				padding-bottom:1rem;
+			}
+			.tabs .tab a:hover, 
+			.tabs .tab a.active,
+			.tabs .tab a {
+				color: rgba(0, 81, 137, 1);
+			}
+			.tabs .tab a.active {
+				background-color: rgba(0, 81, 137, 0.1);
+			}
+			.tabs .indicator {
+				background-color: rgba(0, 81, 137, 0.5);
+			}
+			strong {
+				font-weight: 700;
+			}
+			#art .dataZ {
+				font-size: 1rem;
+				color: red;
+				font-weight: bold;
+			}
+			#art ul {
+				column-count: 3;
+				list-style: none;
+				column-rule: 1px solid gray;
+			}
+			#art ul li {
+				border-bottom: 1px solid gray;
+				margin-top:1rem;
+			}
+			#art ul img {
+				width: 100%;
+			}
+		</style>
+		<script type="application/ld+json">
+		{
+			"@context" : "http://schema.org",
+			"@type" : "Person",
+			"name" : "Domenico Quirico",
+			"url" : "http://autori.gedi.it/profilo/Domenico_Quirico",
+			"image" : "http://autori.gedi.it/profilo/Domenico_Quirico.jpg",
+			"worksFor" : [
+				{
+					"@type": "NewsMediaOrganization",
+					"name": "La Stampa",
+					"url" : "http://www.lastampa.it/",
+                    "sameAs": ["https://www.facebook.com/lastampa.it", "https://twitter.com/lastampa" ],
+             "parentOrganization" : {
+                "@type": "NewsMediaOrganization",
+                "name": "Gruppo GEDI SpA",
+                 "logo": {
+                    "@type": "ImageObject",
+                    "url": "http://www.gedispa.it/fileadmin/templates/geresponsive/resources/images/logoEspresso_name.svg",
+                    "width": 190,
+                    "height": 83
+                    }
+             }
+				}
+			],
+			"description" : "&lt;p&gt;Nell&amp;#39;agosto&amp;nbsp;2011&amp;nbsp;&amp;egrave; stato rapito in&amp;nbsp;Libia&amp;nbsp;e liberato dopo due giorni.&lt;/p&gt;&lt;p&gt;Il 9 aprile&amp;nbsp;2013, mentre si trovava in&amp;nbsp;Siria&amp;nbsp;come inviato di guerra, di lui si perde ogni traccia. La prima notizia del suo rapimento giunge il 6 giugno quando viene diffusa la notizia che Quirico &amp;egrave; ancora vivo.&amp;nbsp;Viene infine liberato l&amp;#39;8 settembre 2013, dopo 5 mesi di sequestro, grazie ad un intervento dello Stato Italiano e infine riportato a casa.&lt;/p&gt;&lt;p&gt;Nel 2015 con &amp;ldquo;Il grande califfato&amp;rdquo; ha vinto la sezione saggistica del&amp;nbsp;&lt;a href=&quot;https://it.wikipedia.org/wiki/Premio_Brancati&quot;&gt;Premio Brancati&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Nel 2016 viene presentato fuori concorso alle Giornate deli Autori di Venezia il documentario&amp;nbsp;&lt;em&gt;Ombre dal Fondo&lt;/em&gt;&amp;nbsp;diretto da Paola Piacenza in cui, per la prima volta, Domenico Quirico si mette di fronte alla telecamera ripercorrendo il suo rapporto con il giornalismo e il rapimento in Siria.&lt;/p&gt;",
+			"affiliation" : [{"@type": "Organization", "name":"ASA"},{"@type": "Organization", "name":"AJA"}],
+			"workLocation" : {
+				"@type": "Place",
+				"name" : "Milano"
+			},
+			"award" : ["Premio Brancati 2015"],
+			"sameAs" : ["http://autori.gedi.it/profilo/GID_1234567890abcdefg"],
+			"identifier" : "GID_1234567890abcdefg",
+			"jobTitle" : "Reporter"
+		}
+		</script>
+	</head>
+	<body>
+		<nav class="grey lighten-2" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="#" class="brand-logo"i href="www.gedispa.it">
+					<img style="height:50px;margin-top:5px" src="http://www.lastampa.it/common/img/LaStampa.svg">
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Navbar Link</a></li>
+				</ul>
+	
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="#">Navbar Link</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col l2 m2 s12">
+					<div class="row">
+						<div style="text-align: center;">
+							<img src="/profilo/Domenico_Quirico.jpg" style="width:100%;padding:0.5rem;margin-top:2rem;" onerror="$(this).hide()">
+						</div>
+					</div>
+					<div class="row">
+<div class="bigMe">Lingue parlate</div><div class="chip">italiano</div><div class="chip">inglese</div><div class="chip">francese</div>					</div>
+					<div class="row">
+<div class="bigMe">Competenze</div><div class="chip">politica</div>					</div>
+				</div>
+				<div class="col l10 m10 s12" style="border-left:1px solid #666;padding-left: 2rem;">
+					<div class="row">
+						<div class="col s12" id="nome">
+							Domenico Quirico						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<ul class="tabs">
+								<li class="tab col l2 s12"><a class="active" href="#bio">Biografia</a></li>
+																<li class="tab col l2 s12"><a href="#aff">Affiliazioni</a></li>
+																<li class="tab col l2 s12"><a href="#pri">Premi</a></li>
+																<li class="tab col l2 s12"><a href="#pub">Pubblicazioni</a></li>
+																<li class="tab col l2 s12"><a href="#art">Articoli</a></li>
+								<li class="tab col l2 s12"><a href="#lin">Link e contatti</a></li>
+							</ul>
+						</div>
+						<div class="col s12" id="bio"><p>Nell&#39;agosto&nbsp;2011&nbsp;&egrave; stato rapito in&nbsp;Libia&nbsp;e liberato dopo due giorni.</p><p>Il 9 aprile&nbsp;2013, mentre si trovava in&nbsp;Siria&nbsp;come inviato di guerra, di lui si perde ogni traccia. La prima notizia del suo rapimento giunge il 6 giugno quando viene diffusa la notizia che Quirico &egrave; ancora vivo.&nbsp;Viene infine liberato l&#39;8 settembre 2013, dopo 5 mesi di sequestro, grazie ad un intervento dello Stato Italiano e infine riportato a casa.</p><p>Nel 2015 con &ldquo;Il grande califfato&rdquo; ha vinto la sezione saggistica del&nbsp;<a href="https://it.wikipedia.org/wiki/Premio_Brancati">Premio Brancati</a>.</p><p>Nel 2016 viene presentato fuori concorso alle Giornate deli Autori di Venezia il documentario&nbsp;<em>Ombre dal Fondo</em>&nbsp;diretto da Paola Piacenza in cui, per la prima volta, Domenico Quirico si mette di fronte alla telecamera ripercorrendo il suo rapporto con il giornalismo e il rapimento in Siria.</p></div>
+						<div class="col s12" id="aff">
+							<ul class="browser-default">
+	<li>ASA</li>
+	<li>AJA</li>
+							</ul>
+						</div>
+						<div class="col s12" id="pri">
+							<ul class="browser-default">
+	<li>Premio Brancati 2015</li>
+							</ul>
+						</div>
+						<div class="col s12" id="pub">
+							<ul class="browser-default">
+	<li>Squadrone bianco. Storia delle truppe coloniali italiane, Mondadori, 2003</li>
+	<li>Adua. La battaglia che cambiò la storia d'Italia, Mondadori, 2004</li>
+	<li>Generali. Controstoria dei vertici militari che fecero e disfecero l'Italia, Mondadori, 2007</li>
+	<li>Naja. Storia del servizio di leva in Italia, Mondadori, 2008</li>
+	<li>Primavera araba. Le rivoluzioni dall'altra parte del mare, Bollati Boringhieri, 2011</li>
+	<li>Gli ultimi. La magnifica storia dei vinti, Neri Pozza, 2013</li>
+	<li>Il paese del male. 152 giorni in ostaggio in Siria, Neri Pozza, 2013</li>
+	<li>Il grande califfato, Neri Pozza, 2015</li>
+	<li>Esodo. Storia del nuovo millennio, Neri Pozza, 2016</li>
+							</ul>
+						</div>
+						<div class="col s12" id="art">
+							<ul class="browser-default">
+							</ul>
+						</div>
+						<div class="col s12" id="lin"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/js/jquery-3.2.1.min.js"></script>
+		<script src="/js/materialize.min.js"></script>
+		<script src="/js/moment.min.js"></script>
+		<script>
+			$(document).ready(
+				function() {
+					$.ajax({
+						type: "GET",
+						url: "/view/ricercaArticoli.php",
+						dataType: "json",
+						success: function(data) {
+							$.each(
+								data.response.docs, 
+								function() {
+									addArticolo(this.titolo, this.url, this.firstPublicationDate, this.image);
+								}
+							);
+						}
+					});
+					$("ul.tabs").tabs();
+				}
+			);
+			function addArticolo(titolo, url, data, image) {
+				var dataZ = moment(data);
+				$("#art ul").append("<li><img src='" + image + "'> <span class='dataZ'>" + dataZ.format("DD/MM/YYYY") + "</span> <a href='http://www.lastampa.it" + url + "' target='_blank'>" + titolo + "</a></li>");
+			}
+		</script>
+	</body>
+</html>

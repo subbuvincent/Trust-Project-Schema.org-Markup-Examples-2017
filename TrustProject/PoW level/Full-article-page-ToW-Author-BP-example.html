@@ -202,8 +202,7 @@ ChorusAds.allowedSlots = ["reskin","prelude","desktop_leaderboard_variable","tab
 {
   "@context": "http://schema.org",
 
-  "@type": "AnalysisNewsArticle",
-  "@type": "ReportageNewsArticle",
+  "@type": ["AnalysisNewsArticle", "ReportageNewsArticle"],
   
   "mainEntityOfPage": "http://www.vox.com/policy-and-politics/2017/4/20/15369512/republican-new-health-care-plan",
   "headline": "House GOP members are floating a new health plan. Here’s what’s in it.",
@@ -215,17 +214,16 @@ ChorusAds.allowedSlots = ["reskin","prelude","desktop_leaderboard_variable","tab
 
     "author": {
 	        	"@type"   : "Person",
-		         "name"    : "Maggie Haberman",
-	             "sameAs" : "https://www.nytimes.com/by/maggie-haberman"
+		         "name"    : "Sarah Kliff",
+	             	"sameAs" : "https://www.vox.com/authors/sarah-kliff"
     },
 
- "publisher": {
+   "publisher": {
     "@type": "NewsMediaOrganization",
-    "name": "Vox",
-    "unnamedSourcesPolicy": "https://www.theverge.com/pages/sourcing-policy-statement",  
-    "verificationFactCheckingPolicy": "https://www.theverge.com/pages/fact-checking-policy-statement"  
- }
-
+    "name": "Vox"
+    }, 
+  
+    "publishingPrinciples": "URL to Best Practices landing here"	
 }
 </script>
 

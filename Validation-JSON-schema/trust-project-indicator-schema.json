@@ -1,0 +1,273 @@
+{
+
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Shared definitions for the Trust Project Indiciators.",
+  "description": "The definitions are inspired by schema.org which is under Creative Commons Attribution-ShareAlike License (version 3.0): http://creativecommons.org/licenses/by-sa/3.0/",
+  "definitions": {
+    "uriCreativeWork": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/creativeWork"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
+    },
+    "uriImageObject": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/imageObject"
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
+    },
+    "newsMediaOrganization": {
+      "description": "A News/Media organization such as a newspaper or TV station.",
+      "properties": {
+        "actionableFeedbackPolicy": {
+          "description": "For a NewsMediaOrganization or other news-related Organization, a statement about public engagement activities (for news media, the newsroom’s), including involving the public - digitally or otherwise -- in coverage decisions, reporting and activities after publication.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "address": {
+          "description": "Physical address of the item.",
+          "type": "string"
+        },
+        "contactPoint": {
+          "description": "A contact point for a person or organization. Supersedes contactPoints.",
+          "$ref": "#/definitions/contactPoint"
+        },
+        "correctionsPolicy": {
+          "description": "For an Organization (e.g. NewsMediaOrganization), a statement describing (in news media, the newsroom’s) disclosure and correction policy for errors.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "diversityPolicy": {
+          "description": "Statement on diversity policy by an Organization e.g. a NewsMediaOrganization. For a NewsMediaOrganization, a statement describing the newsroom’s diversity policy on both staffing and sources, typically providing staffing data.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "diversityStaffingReport": {
+          "description": "For an Organization (often but not necessarily a NewsMediaOrganization), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "ethicsPolicy": {
+          "description": "Statement about ethics policy, e.g. of a NewsMediaOrganization regarding journalistic and publishing practices, or of a Restaurant, a page describing food source policies. In the case of a NewsMediaOrganization, an ethicsPolicy is typically a statement describing the personal, organizational, and corporate standards of behavior expected by the organization.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "foundingDate": {
+          "description": "The date that this organization was founded.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "logo": {
+          "description": "An associated logo.",
+          "$ref": "#/definitions/uriImageObject"
+        },
+        "masthead": {
+          "description": "For a NewsMediaOrganization, a link to the masthead page or a page listing top editorial management.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "missionCoveragePrioritiesPolicy": {
+          "description": "For a NewsMediaOrganization, a statement on coverage priorities, including any public agenda or stance on issues.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "noBylinesPolicy": {
+          "description": "For a NewsMediaOrganization or other news-related Organization, a statement explaining when authors of articles are not named in bylines.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "ownershipFundingInfo": {
+          "description": "For an Organization (often but not necessarily a NewsMediaOrganization), a description of organizational ownership structure; funding and grants. In a news/media setting, this is with particular reference to editorial independence. Note that the funder is also available and can be used to make basic funder information machine-readable.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "publishingPrinciples": {
+          "description": "The publishingPrinciples property indicates (typically via URL) a document describing the editorial principles of an Organization (or individual e.g. a Person writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies. When applied to a CreativeWork (e.g. NewsArticle) the principles are those of the party primarily responsible for the creation of the CreativeWork.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "sameAs": {
+          "description": "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "telephone": {
+          "description": "The telephone number.",
+          "type": "string"
+        },
+        "unnamedSourcesPolicy": {
+          "description": "For an Organization (typically a NewsMediaOrganization), a statement about policy on use of unnamed sources and the decision process required.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "url": {
+          "description": "URL of the item.",
+          "type": "string",
+          "format": "uri"
+        },
+        "verificationFactCheckingPolicy": {
+          "description": "Disclosure about verification and fact-checking processes for a NewsMediaOrganization or other fact-checking Organization.",
+          "$ref": "#/definitions/uriCreativeWork"
+        }
+      },
+      "required": [
+        "actionableFeedbackPolicy",
+        "contactPoint",
+        "correctionsPolicy",
+        "diversityPolicy",
+        "diversityStaffingReport",
+        "ethicsPolicy",
+        "foundingDate",
+        "masthead",
+        "missionCoveragePrioritiesPolicy",
+        "ownershipFundingInfo",
+        "publishingPrinciples",
+        "unnamedSourcesPolicy",
+        "verificationFactCheckingPolicy"
+      ],
+      "type": "object"
+    },
+    "contactPoint": {
+      "description": "A contact point—for example, a Customer Complaints department.",
+      "properties": {
+        "contactType": {
+          "description": "A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point.",
+          "type": "string"
+        },
+        "email": {
+          "description": "Email address.",
+          "type": "string",
+          "format": "email"
+        },
+        "faxNumber": {
+          "description": "The fax number.",
+          "type": "string"
+        },
+        "telephone": {
+          "description": "The telephone number.",
+          "type": "string"
+        },
+        "url": {
+          "description": "URL of the item.",
+          "type": "string",
+          "format": "uri"
+        }         
+      },
+      "required": [
+        "contactType"
+      ],
+      "type": "object"
+    },
+    "author": {
+      "description": "Carries biographical information, expertise, and a hook to the author or producer’s verified identity. The indicator can also be  applied to editors, fact checkers and other contributors as part of Methodology.",
+      "properties": {
+        "knowsLanguage": {
+          "description": "Of a Person, and less typically of an Organization, to indicate a known language. We do not distinguish skill levels or reading/writing/speaking/signing here. Use language codes from the IETF BCP 47 standard.",
+          "type": "string"
+        },
+        "name": {
+          "description": "The name of the item.",
+          "type": "string"
+        },
+        "workLocation": {
+          "description": "A contact location for a person's place of work.",
+          "$ref": "#/definitions/contactPoint"
+        }
+      },
+      "type": "object"
+    },
+    "newsArticle": {
+      "description": "A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.",
+      "properties": {
+        "citation": {
+          "description": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
+          "items": {
+            "oneOf": [{
+                "$ref": "#/definitions/CreativeWork"
+              },
+              {
+                "type": "string",
+                "format": "uri"
+              }
+            ]
+          },
+          "type": "array"
+        },
+        "dateline": {
+          "description": "A dateline is a brief piece of text included in news articles that describes where and when the story was written or filed though the date is often omitted. Sometimes only a placename is provided.",
+          "type": "string"
+        },
+        "dateModified": {
+          "description": "The GMT date on which the content was last modified.",
+          "format": "date-time",
+          "type": "string"
+        },
+        "datePublished": {
+          "description": "The GMT date on which the content was published.",
+          "format": "date-time",
+          "type": "string"
+        },
+        "headline": {
+          "description": "Head or Title of the article.",
+          "type": "string"
+        },
+        "mainEntityOfPage": {
+          "description": "ndicates a page (or other CreativeWork) for which this thing is the main entity being described. See background notes for details.",
+          "$ref": "#/definitions/uriCreativeWork"
+        },
+        "publisher": {
+          "description": "The publisher of the creative work.",
+          "$ref": "#/definitions/newsMediaOrganization"
+        },
+        "type": {
+          "description": "Labels the type of journalistic work to distinguish factual reports from analysis, opinion and other genres. Applies to text, video, audio and other work. ",
+          "items": {
+            "enum": [
+              "AdvertiserContentArticle",
+              "AnalysisNewsArticle",
+              "AskPublicNewsArticle",
+              "BackgroundNewsArticle",
+              "ClaimReview",
+              "OpinionNewsArticle",
+              "ReportageNewsArticle",
+              "ReviewNewsArticle",
+              "SatiricalArticle"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "url": {
+          "description": "URL of the item.",
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "type": "object"
+    },
+    "creativeWork": {
+      "description": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
+      "properties": {
+        "url": {
+          "description": "URL of the item.",
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "type": "object"
+    },
+    "imageObject": {
+      "description": "An image file.",
+      "properties": {
+        "url": {
+          "description": "URL of the item.",
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "type": "object"
+    }
+  }
+}

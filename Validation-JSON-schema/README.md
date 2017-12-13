@@ -12,7 +12,8 @@ We are using this to provide all the object types in the Trust Project. The firs
 
 - Visit [JSON-SCHEMA.ORG](http://json-schema.org/). This is a good resource for getting more familiar with how it all works as well. 
 - Visit this helpful tutorial at [spacetelescope.github.io](https://spacetelescope.github.io/understanding-json-schema/) 
-- Json-schmema [implementations](http://json-schema.org/implementations.html) 
+- JSON-schema [implementations](http://json-schema.org/implementations.html) 
+- JSON Schema [definitions and references](https://cswr.github.io/JsonSchema/spec/definitions_references/)
 
 # First draft posted by Kathryn Jonas 
 @jonas.

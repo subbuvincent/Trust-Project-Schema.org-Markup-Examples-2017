@@ -1,4 +1,4 @@
-# Trust Project JSON Schema for validation (first draft by @jonas) 
+# Trust Project JSON Schema for validation
 
 This repository is for collaboratively developed Trust Protocol JSON Schema. 
 
@@ -12,3 +12,5 @@ We are using this to provide all the object types in the Trust Project. The firs
 
 - Visit [JSON-SCHEMA.ORG](http://json-schema.org/). This is a good resource for getting more familiar with how it all works as well. 
 - Visit this helpful tutorial at [spacetelescope.github.io](https://spacetelescope.github.io/understanding-json-schema/) 
+
+# First draft posted by Kathryn Jonas @jonas.
